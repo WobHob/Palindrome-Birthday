@@ -1,0 +1,58 @@
+:root{
+    --primary-color:#d590db;
+}
+
+html{
+    background:var(--primary-color);
+}
+
+.header{
+    text-align: center; 
+    margin-top:5rem;
+    margin-bottom:2rem;
+    padding: 2rem 2rem;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size:3rem;
+}
+
+.container{
+    padding:2rem 2rem;
+    margin: 2rem 2rem;
+    text-align:center;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.container .dob{
+    text-align:center;
+    /* margin:1rem 1rem; */
+    font-size:1.5rem;
+}
+
+#date-bday{
+    font-size:1.5rem;
+}
+
+.lucky-num{
+    margin:2rem 2rem;
+}
+
+#range-output{
+    margin:1rem 1rem;
+    padding:1rem;
+}
+
+#calculate-number{
+    margin:2rem;
+    font-size:2rem;
+}
+
+#plus{
+    font-size:2rem;
+    border-radius:1rem;
+}
+
+#minus{
+
+    font-size:2rem;
+    border-radius:1rem;
+}
